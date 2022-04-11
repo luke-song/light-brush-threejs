@@ -113,7 +113,7 @@ const texturedMaterial = new THREE.MeshStandardMaterial({
   metalness: 0.7,
   roughness: 0.2,
   normalMap: normalTexture,
-  emissive: 0x9152cc,
+  emissive: 0x966f53,
 });
 const bigSphereGeometry = new THREE.SphereGeometry(4, 64, 64);
 const bigSphere = new THREE.Mesh(bigSphereGeometry, texturedMaterial);
